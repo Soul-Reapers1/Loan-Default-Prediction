@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.venv/
+venv/
+env/
+
+.env
+
+.DS_Store
+
+# Local archives and source data are too large for a normal GitHub repository.
+*.zip
+loan.csv
+
+# Generated model artifacts. Keep loan_pipeline.pkl tracked if you want the
+# Flask app to run immediately after cloning; otherwise regenerate it with
+# main.py after placing loan.csv in the project root.
+loan_model.pkl
+columns.pkl
+
+# Python cache
+__pycache__/
+*.py[cod]
